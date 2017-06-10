@@ -1,23 +1,25 @@
 CeasarED: encryption, decryption and public & private keygen
 
 
-Encryption:
+#Encryption:
 ----------------
 
-P = plaintext\n
-bS = baseString\n
-pK1=  Private Key a set of random numbers each an index of a unique letter of baseString in PK1
-pKa = Private Key substituted 
-PKa = Public Key obtained by using numbers of PK1 as indexes for basestring
-PK1 = Grid of random numbers used to generate Public Key 
-k = shift factor
-C1 = cipher1
-C2 = cipher2
-C3 = cipher3
-NaCl= salt
+Variable|Desciption
+--------------------
+P|plaintext
+bS|baseString
+pK1|Private Key a set of random numbers each an index of a unique letter of baseString in PK1
+pKa|Private Key substituted 
+PKa|Public Key obtained by using numbers of PK1 as indexes for basestring
+PK1|Grid of random numbers used to generate Public Key 
+k|shift factor
+C1|cipher1
+C2|cipher2
+C3|cipher3
+NaCl|salt
 
 
-Alogrithm
+##Alogrithm
 ----------------
 
 
@@ -41,16 +43,16 @@ Alogrithm
 
 
 
-Decryption:
+#Decryption:
 ----------------
 
     Reverse of encryption.
 
-KeyGens:
+#KeyGens:
 ----------------
 
     
-PUBLIC
+##PUBLIC
 ----------------
 
     keyLen =  length of public key
@@ -65,7 +67,7 @@ PUBLIC
 
 
     
-PRIVATE
+##PRIVATE
 ----------------
 
     1. Generate numPrivKey, for each char in baseString, find all pos of char in alphaKeySpace, record i[] ,
