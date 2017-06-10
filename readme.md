@@ -1,8 +1,11 @@
 CeasarED: encryption, decryption and public & private keygen
 
 
-#Encryption:#
-----------------
+# Encryption:
+--------------
+
+## Variables
+--------------
 
 Variable|Desciption
 --------|------------
@@ -18,10 +21,8 @@ C2|cipher2
 C3|cipher3
 NaCl|salt
 
-
-##Alogrithm##
+## Alogrithm
 ----------------
-
 
     1. Plaintext >> Cipher One -- to each letter in plaintext adds k*i
 
@@ -43,16 +44,16 @@ NaCl|salt
 
 
 
-#Decryption:#
+# Decryption:
 ----------------
 
     Reverse of encryption.
 
-#KeyGens:#
+# KeyGens:
 ----------------
 
     
-##PUBLIC##
+## PUBLIC
 ----------------
 
     keyLen =  length of public key
@@ -67,7 +68,7 @@ NaCl|salt
 
 
     
-##PRIVATE##
+## PRIVATE
 ----------------
 
     1. Generate numPrivKey, for each char in baseString, find all pos of char in alphaKeySpace, record i[] ,
