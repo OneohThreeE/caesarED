@@ -1,7 +1,7 @@
 # Ceasared: toy encryption 
 
 **Toy** encyption alogrithm: described below. Uses a short private key and a (very) long public key. Sample keys included in source.
-Please do **not** use to secure anything of value.
+Please do **not** try to secure anything of value using this alogorithm.
 
 ## Variables
 
