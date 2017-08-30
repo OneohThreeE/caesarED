@@ -5,8 +5,8 @@ from status_messages import failure
 def main():
     cipher = cipher_machine.CipherMachine()
 
-    cipher.import_public_key('public_key1')  # default parameters
-    cipher.import_private_key('private_key1')
+    cipher.import_public_key('../sample_keys/public_key1')  # default parameters
+    cipher.import_private_key('../sample_keys/private_key1')
 
     cm_com = {"e": cipher.encrypt,
               "d": cipher.decrypt,
