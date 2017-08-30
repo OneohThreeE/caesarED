@@ -19,7 +19,7 @@ class CipherMachine:
         self.shuffled_num_private_key = []  # private key
         self.shuffled_alpha_private_key = []
 
-        self.salt = []  # key dependencies
+        self.salt = [] 
 
         self.k = 0  # shift factor
 
